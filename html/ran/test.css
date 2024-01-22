@@ -1,0 +1,75 @@
+#p1
+{
+    background-color: crimson;
+}
+p,span{
+/* background-color: blue; */
+font-size: 1em;
+overflow-y: auto;
+text-align: justify;
+}
+.p1{
+background-color: lightBlue;
+width: 400px;
+height: 100px;
+}
+.p2{
+background-color: green;
+}
+.s1{
+background-color: orange;
+width: 400px;
+height: 100px;
+}
+.s2{
+background-color: yellow;
+}
+#d1
+{
+    background-color: bisque;
+    /* height: 50vh; */
+}
+div
+{
+    width: 50vw;
+    height: 100vh;
+    overflow-y: auto;
+}
+#d2
+{
+    padding: 1%;
+    background-color: coral;
+    /* height: 50vh; */
+   
+    overflow-y: none;
+    
+    /* border: 5px solid red; */
+     /* border-color: blue;
+     border-style: dotted;
+     border-width: 5px; */
+    /* padding: 1%;  */
+    /* margin: 5%; */
+    /* border-radius: 50px; */
+    /* border-radius: 5px; */
+    }
+body
+{
+    margin: 0px;
+    overflow: hidden;
+}
+main
+{
+    display: flex;
+    flex-direction: row;
+}
+@media screen and (max-width:500px) {
+    main
+{
+
+    flex-direction: column;
+}
+div{
+    width: 100vw;
+    height: 50vh;
+}
+}

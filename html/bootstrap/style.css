@@ -1,0 +1,9 @@
+.demo
+{
+display: flex;
+flex-wrap: wrap;
+}
+.info-large
+{
+    width: 40%;
+}
