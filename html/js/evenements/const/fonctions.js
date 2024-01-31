@@ -5,6 +5,7 @@ function afficherUl(pListe)
 }
 
 function afficherUlBUGGED(pListe)
+//function ajouterUnElementEtAfficher(pListe)
 {
     console.log('afficherUlBUGGED>modification pListe (parametre passé en référence!)');
     console.log(`la liste contient ${pListe.childNodes.length} éléments.`);
