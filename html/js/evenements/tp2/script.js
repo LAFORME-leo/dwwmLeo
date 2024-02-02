@@ -1,7 +1,7 @@
 
 const btn_new = document.querySelector('#btn_new');
 const citation = document.querySelector('#citation');
-const btn_color =document.querySelector('#btn_color');
+let btn_color =document.querySelector('#btn_color');
 
 btn_new.addEventListener('click',afficherCitation);
 btn_color.addEventListener('click',changerCouleur);

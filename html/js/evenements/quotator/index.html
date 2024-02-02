@@ -4,12 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-   
-    <script src="fonctions.js" defer></script>
-    <script src="executer.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/fonctions.js" defer></script>
+    <script src="js/main.js" defer></script>
 </head>
 <body>
-    <p id="prenom"></p>
-    <p id="nom"></p>
+    <div id="chargement">
+        En cours de chargement
+    </div>
+    <nav>
+        <input type="text" name="txt_recherche" id="txt_recherche">
+        <button id="btn_recherche">Cherche Lycos</button>
+       
+    </nav>
+    <div id="contenu">
+        <button id="zombies">Zombies</button>
+        <button id="startrek">Startrex</button>
+        <button id="sda">Seigneur des Anneaux</button>
+        <h1 id="auteur">non chargé</h1>
+        <p id="citation">non chargé</p>
+        <button id="prec" class="btn_nav" disabled> prec</button>
+        <button id="suiv" class="btn_nav" disabled>suiv</button>
+    </div>
+    <div id="recherche">
+        <ul id="ul_resultat_recherche"></ul>
+    </div>
+  
 </body>
 </html>

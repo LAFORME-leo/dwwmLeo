@@ -1,5 +1,6 @@
 function afficherCitation()
 { 
+    
     let n = Math.floor(Math.random()*citations.length);
     citation.textContent=citations[n];
 

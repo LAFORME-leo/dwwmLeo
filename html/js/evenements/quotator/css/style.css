@@ -1,0 +1,25 @@
+#chargement
+{
+    display: block;
+}
+#contenu
+{
+    display: none;
+}
+.btn_zombies
+{
+    background-color: black;
+    color: chartreuse;
+}
+.btn_sda
+{
+    background-color: rgb(184, 236, 184);
+}
+.btn_startrek
+{
+    background-color: rgb(170, 170, 254);
+}
+.btn_nav
+{
+
+}
