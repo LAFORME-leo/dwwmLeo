@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="fonctions.js"></script>
+    <script src="appelAPI.js"></script>
+    <script src="main.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <input type="text" inputmode="decimal" id ="valeurDepart">
+                <input type="text" id="valeurArrivee" disabled>
+            </div>
+            <div class="col-6"><button class="boutonSaisie" value="0">0</button>
+                <button class="boutonSaisie" value="1">1</button>
+                <button class="boutonSaisie" value="2">2</button>
+                <button class="boutonSaisie" value="3">3</button>
+                <button class="boutonSaisie" value="4">4</button>
+                <button class="boutonSaisie" value="5">5</button>
+                <button class="boutonSaisie" value="6">6</button>
+                <button class="boutonSaisie" value="7">7</button>
+                <button class="boutonSaisie" value="8">8</button>
+                <button class="boutonSaisie" value="9">9</button>
+                <button class="boutonSaisie" value=".">,</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3"> <input type="radio" name="monnaieDepart" id="monnaieDepart" value="EUR"checked>€
+                <input type="radio" name="monnaieDepart" id="monnaieDepart" value="USD" >$
+            </div>
+            <div class="col-3"><input type="radio" name="monnaieArrivee" id="monnaieArrivee" value="EUR">€
+                <input type="radio" name="monnaieArrivee" id="monnaieArrivee" value="USD" checked>$
+            </div>
+            <div class="col-6"><button id="convertir">Convertir</button></div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
