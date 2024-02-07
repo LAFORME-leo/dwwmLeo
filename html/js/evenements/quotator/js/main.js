@@ -19,7 +19,8 @@ const  btn_recherche =document.querySelector('#btn_recherche')
 const  txt_recherche =document.querySelector('#txt_recherche')
 const ul_resultat_recherche = document.querySelector('#ul_resultat_recherche');
 const recherche = document.querySelector('#recherche');
- 
+ console.log(ul_resultat_recherche.constructor.name);
+ console.log(btn_recherche.constructor.name);
 
 
 btn_zombies.addEventListener('click',afficherCitationClickAleatoire);
