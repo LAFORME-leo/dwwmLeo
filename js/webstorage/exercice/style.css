@@ -1,0 +1,10 @@
+.blackMode
+{
+    background-color: black;
+    color:whitesmoke
+}
+.lightMode
+{
+    background-color: whitesmoke;
+    color:black;
+}
