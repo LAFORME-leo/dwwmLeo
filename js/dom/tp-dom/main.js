@@ -13,4 +13,7 @@ document.addEventListener('DOMContentLoaded',()=>
 
     const btn_addPara = document.querySelector('#btn_addPara');
     btn_addPara.addEventListener('click',ajouterUnParagraphe)
+
+    const btn_hideAll = document.querySelector('#btn_hideAll');
+    btn_hideAll.addEventListener('click',hideAllParagraphes)
 })
