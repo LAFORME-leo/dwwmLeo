@@ -1,0 +1,27 @@
+*{
+    margin:0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+#chargement{
+    background-color: lightblue;
+    height: 100%;
+}
+#contenu{
+    background-color: whitesmoke;
+  display: none ;
+}
+main{
+    /* overflow-x: show; */
+}
+body
+{
+    height: 100vh;
+}
+
+img
+{
+    /* height: 100%; */
+    width: 100vw;
+}
