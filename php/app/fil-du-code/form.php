@@ -6,8 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
-    echo "On va flunchhher";
-    ?>
+    <form action="traiter.php" method="POST">
+        <input type="text" name="prenom" id="id_prenom">
+        <button>envoyer</button>
+    </form>
 </body>
 </html>

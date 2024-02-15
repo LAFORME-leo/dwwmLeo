@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php
-    echo "On va flunchhher";
+    echo('Bonjour la team')
     ?>
 </body>
 </html>
