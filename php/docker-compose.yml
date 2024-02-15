@@ -15,7 +15,7 @@ services:
     ports:
       - "3306:3306"
     environment:
-      - MYSLQ_ROOT_PASSWORD=thisisapassworddamned
+      - MYSQL_ROOT_PASSWORD=thisisapassworddamned
   myadmin:
     image: phpmyadmin/phpmyadmin
     ports:
