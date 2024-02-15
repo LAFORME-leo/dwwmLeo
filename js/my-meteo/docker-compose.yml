@@ -1,0 +1,9 @@
+version: '1.0'
+name: 'my-meteo-app'
+services: 
+    web:
+        image: 'httpd'
+        ports:
+            - "80:80"
+        volumes:
+            - ~/Documents/GitHub/dwwm2024/js/my-meteo/app:/usr/local/apache2/htdocs/

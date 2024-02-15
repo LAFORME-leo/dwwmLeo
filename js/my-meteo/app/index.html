@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="createBootstrapComponents.js"></script>
+    <script src="openweather.js"></script>
+    <script src="geolocation.js"></script>
+    <script src="localization.js"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav><div class="dropdown">
+        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          langue
+        </a>
+      
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item lang_choice" href="#" value="fr">français</a></li>
+          <li><a class="dropdown-item lang_choice" href="#"  value="en">english</a></li>
+        </ul>
+      </div>
+      <div class="dropdown">
+        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Unites
+        </a>
+      
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item units_choice" href="#" value="metric">Metric</a></li>
+          <li><a class="dropdown-item units_choice" href="#"  value="imperial">Imperial</a></li>
+        </ul>
+      </div>
+    
+    </nav>
+    <main>
+        <div id="search">
+            <input type="text" name="txt_city" id="txt_city"><button class="btn btn-primary" id="btn_search">Lycos</button>
+            <button class="btn btn-primary" id="btn_localize">Ma Position</button>
+            <button class="btn btn-primary" id="btn_forget">Oublier</button>
+        </div>
+        <div id="result"></div>
+    </main>
+</body>
+</html>
