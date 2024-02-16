@@ -8,7 +8,7 @@
 <body>
     <form action="traiter.php" method="POST">
         <input type="text" name="prenom" id="id_prenom">
-        <button>envoyer</button>
+        <button>Envoyer</button>
     </form>
 </body>
 </html>
