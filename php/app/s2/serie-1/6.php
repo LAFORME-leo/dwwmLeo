@@ -14,8 +14,6 @@ function afficherLesPuissanceDe(int $pBase, int $pExposant): ArrayObject
     return $resultat;
 }
 $resultat = afficherLesPuissanceDe(2, 16);
-
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
