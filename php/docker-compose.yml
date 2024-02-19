@@ -5,7 +5,7 @@ services:
     ports:
       - "80:80"
     volumes:
-      - ~/Documents/GitHub/dwwm2024/php/app:/var/www/html
+      - ~/dwwm2024/php/app/:/var/www/html
     links:
       - db:db
   db:

@@ -1,0 +1,432 @@
+[
+    {
+        "texte": "Même le plus petit être peut changer le cours de l'avenir.",
+        "auteur": "Gandalph the Gray",
+        "categorie": 1
+    },
+    {
+        "texte": "La lumière brille plus clairement dans les ténèbres.",
+        "auteur": "Frodo Baggings",
+        "categorie": 1
+    },
+    {
+        "texte": "Tous ceux qui errent ne sont pas perdus.",
+        "auteur": "Aragorner",
+        "categorie": 1
+    },
+    {
+        "texte": "Il y a de la beauté dans ce monde, et elle vaut la peine qu'on se batte pour elle.",
+        "auteur": "Samwise Gamegee",
+        "categorie": 1
+    },
+    {
+        "texte": "Un seul rêve est plus puissant qu'un millier de réalités.",
+        "auteur": "J.R.R. Talkien",
+        "categorie": 1
+    },
+    {
+        "texte": "La plus grande aventure est ce qui nous attend à la maison.",
+        "auteur": "Bilbo Baggings",
+        "categorie": 1
+    },
+    {
+        "texte": "Même les plus sages ne peuvent dire ce qui viendra.",
+        "auteur": "Gandalph the Gray",
+        "categorie": 1
+    },
+    {
+        "texte": "Le pouvoir corrompt, mais l'espoir demeure.",
+        "auteur": "Boromirror",
+        "categorie": 1
+    },
+    {
+        "texte": "On ne mesure pas sa grandeur à la force qu'on peut exercer.",
+        "auteur": "Treebeard",
+        "categorie": 1
+    },
+    {
+        "texte": "Il n'est jamais trop tard pour partir à l'aventure.",
+        "auteur": "Bilbo Baggings",
+        "categorie": 1
+    },
+    {
+        "texte": "Dans les temps sombres, l'amitié est un trésor.",
+        "auteur": "Merryadoc Brandybock",
+        "categorie": 1
+    },
+    {
+        "texte": "La sagesse est un cadeau, et non une possession.",
+        "auteur": "Elrond Hubbard",
+        "categorie": 1
+    },
+    {
+        "texte": "Le courage est trouvé dans les endroits les plus inattendus.",
+        "auteur": "Gandalph the Gray",
+        "categorie": 1
+    },
+    {
+        "texte": "La maison est là où le cœur se repose.",
+        "auteur": "Samwise Gamegee",
+        "categorie": 1
+    },
+    {
+        "texte": "Le destin nous lie tous.",
+        "auteur": "Aragorner",
+        "categorie": 1
+    },
+    {
+        "texte": "Les rêves éveillés sont les clés de la grandeur.",
+        "auteur": "Bilbo Baggings",
+        "categorie": 1
+    },
+    {
+        "texte": "Chaque voyage commence par un pas.",
+        "auteur": "Frodo Baggings",
+        "categorie": 1
+    },
+    {
+        "texte": "L'ombre passe, la lumière reste.",
+        "auteur": "Gandalph the Gray",
+        "categorie": 1
+    },
+    {
+        "texte": "Les histoires nous accompagnent, même dans les moments les plus sombres.",
+        "auteur": "J.R.R. Talkien",
+        "categorie": 1
+    },
+    {
+        "texte": "Le véritable courage est de savoir quand ne pas tuer.",
+        "auteur": "Gimleaf",
+        "categorie": 1
+    },
+    {
+        "texte": "Le temps ne guérit pas toutes les blessures, mais il offre la sagesse.",
+        "auteur": "Elrond Hubbard",
+        "categorie": 1
+    },
+    {
+        "texte": "Les actes les plus simples peuvent contenir la plus grande bravoure.",
+        "auteur": "Samwise Gamegee",
+        "categorie": 1
+    },
+    {
+        "texte": "La nature est un trésor que nous devons chérir.",
+        "auteur": "Treebeard",
+        "categorie": 1
+    },
+    {
+        "texte": "La légende revit dans chaque histoire racontée.",
+        "auteur": "Bilbo Baggings",
+        "categorie": 1
+    },
+    {
+        "texte": "La vérité se trouve souvent dans les mots anciens.",
+        "auteur": "Gandalph the Gray",
+        "categorie": 1
+    },
+    {
+        "texte": "Les étoiles sont des guides sur le chemin de nos rêves.",
+        "auteur": "Elrond Hubbard",
+        "categorie": 1
+    },
+    {
+        "texte": "Chaque cœur renferme un secret, chaque terre une légende.",
+        "auteur": "Aragorner",
+        "categorie": 1
+    },
+    {
+        "texte": "L'union fait la force, en toutes circonstances.",
+        "auteur": "Elrond Hubbard",
+        "categorie": 1
+    },
+    {
+        "texte": "L'espoir est comme l'or de la Moria, précieux et rare.",
+        "auteur": "Gimleaf",
+        "categorie": 1
+    },
+    {
+        "texte": "La grandeur naît de petits actes.",
+        "auteur": "Samwise Gamegee",
+        "categorie": 1
+    },
+    {
+        "texte": "L'espace, la frontière de l'infini. Ces voyages sont le chemin de notre destinée.",
+        "auteur": "Jean-Luc Pickard",
+        "categorie": 2
+    },
+    {
+        "texte": "La logique est le début de la sagesse, pas la fin.",
+        "auteur": "Spork",
+        "categorie": 2
+    },
+    {
+        "texte": "Vivre longtemps et prospérer ne signifie pas éviter le changement; cela signifie s'adapter pour survivre.",
+        "auteur": "Spork",
+        "categorie": 2
+    },
+    {
+        "texte": "Les étoiles, comme des diamants dans un champ de rêves, nous guident vers l'inconnu.",
+        "auteur": "Kathrine JaneWay",
+        "categorie": 2
+    },
+    {
+        "texte": "Un vrai leader sait quand suivre.",
+        "auteur": "Commandant Ryker",
+        "categorie": 2
+    },
+    {
+        "texte": "L'humanité n'est pas une question de biologie, c'est une question de cœur.",
+        "auteur": "Deanna Trio",
+        "categorie": 2
+    },
+    {
+        "texte": "Les possibilités de l'infini nous rappellent que l'aventure est éternelle.",
+        "auteur": "Data Base",
+        "categorie": 2
+    },
+    {
+        "texte": "La galaxie est remplie de mystères à dévoiler et de vérités à découvrir.",
+        "auteur": "Benjamin Sisqo",
+        "categorie": 2
+    },
+    {
+        "texte": "Dans l'obscurité de l'espace, la lumière de l'humanité brille le plus fort.",
+        "auteur": "Kathrine JaneWay",
+        "categorie": 2
+    },
+    {
+        "texte": "La paix est une quête perpétuelle, pas seulement un accord.",
+        "auteur": "Worff",
+        "categorie": 2
+    },
+    {
+        "texte": "Chaque nouvelle étoile est une histoire qui attend d'être explorée.",
+        "auteur": "James T. Quirk"
+    },
+    {
+        "texte": "La bravoure ne consiste pas à ne pas avoir peur, mais à affronter ses peurs.",
+        "auteur": "Leonard McBoy"
+    },
+    {
+        "texte": "L'exploration est l'essence de l'esprit humain.",
+        "auteur": "Jean-Luc Pickard"
+    },
+    {
+        "texte": "La diversité, dans toutes ses formes, est une force, pas une faiblesse.",
+        "auteur": "Ny Ota Uhura"
+    },
+    {
+        "texte": "Le plus grand voyage commence par un simple pas.",
+        "auteur": "Data Base"
+    },
+    {
+        "texte": "La curiosité n'est pas un défaut, mais un atout.",
+        "auteur": "Kathrine JaneWay"
+    },
+    {
+        "texte": "La connaissance est la lumière qui nous guide à travers l'obscurité de l'inconnu.",
+        "auteur": "Spork"
+    },
+    {
+        "texte": "L'univers est un grand puzzle, et chaque pièce est une merveille.",
+        "auteur": "Deanna Trio"
+    },
+    {
+        "texte": "Le courage est le combustible qui nous propulse vers de nouveaux mondes.",
+        "auteur": "Worff"
+    },
+    {
+        "texte": "La compassion est le langage universel qui transcende les étoiles.",
+        "auteur": "Beverly Crush"
+    },
+    {
+        "texte": "L'audace est la clé pour ouvrir des portes inconnues.",
+        "auteur": "James T. Quirk"
+    },
+    {
+        "texte": "Rien n'est impossible pour un cœur vaillant.",
+        "auteur": "Scotty Beam"
+    },
+    {
+        "texte": "La sagesse est la compagne de l'exploration.",
+        "auteur": "Jean-Luc Pickard"
+    },
+    {
+        "texte": "L'esprit humain est la vraie frontière finale.",
+        "auteur": "Spork"
+    },
+    {
+        "texte": "Seul dans l'obscurité, la solidarité est notre étoile du nord.",
+        "auteur": "Ny Ota Uhura"
+    },
+    {
+        "texte": "Chaque rencontre est une opportunité d'apprendre.",
+        "auteur": "Data Base"
+    },
+    {
+        "texte": "Dans la symphonie de l'univers, chaque voix compte.",
+        "auteur": "Kathrine JaneWay"
+    },
+    {
+        "texte": "Cherchez l'inconnu, et vous trouverez de nouveaux horizons.",
+        "auteur": "Leonard McBoy"
+    },
+    {
+        "texte": "L'harmonie est la véritable force de l'univers.",
+        "auteur": "Deanna Trio"
+    },
+    {
+        "texte": "L'aventure est la mère de la découverte.",
+        "auteur": "Worff"
+    },
+    {
+        "texte": "Dans un monde où les morts marchent, les canapés sont nos meilleures forteresses.",
+        "auteur": "Zom Ben",
+"categorie":3
+    },
+    {
+        "texte": "N'oublie jamais: un zombie lent aujourd'hui peut être le sprinter de demain.",
+        "auteur": "Rigor Mortis",
+"categorie":3
+    },
+    {
+        "texte": "Les zombies ne dorment jamais, mais ils font de terribles cauchemars.",
+        "auteur": "Brain Eater",
+"categorie":3
+    },
+    {
+        "texte": "La mode zombie : soyez démodé, mais avec appétit.",
+        "auteur": "Decay Mode",
+"categorie":3
+    },
+    {
+        "texte": "Un bon zombie est un zombie rassasié... mais ils ont toujours faim.",
+        "auteur": "Ghoulia Guts",
+"categorie":3
+    },
+    {
+        "texte": "Pour survivre à l'apocalypse, il faut parfois devenir un peu zombie soi-même.",
+        "auteur": "Walker Texas Ranger",
+"categorie":3
+    },
+    {
+        "texte": "Les zombies ne parlent pas, mais ils ont beaucoup à dire.",
+        "auteur": "Moaner Lisa",
+"categorie":3
+    },
+    {
+        "texte": "Dans la danse des morts, les zombies sont toujours les rois de la piste.",
+        "auteur": "Disco Decay",
+"categorie":3
+    },
+    {
+        "texte": "Les zombies aiment les cerveaux, mais détestent les maux de tête.",
+        "auteur": "Skull Cruncher",
+"categorie":3
+    },
+    {
+        "texte": "La seule façon de gagner contre un zombie, c'est de ne pas jouer.",
+        "auteur": "No Brainer",
+"categorie":3
+    },
+    {
+        "texte": "L'apocalypse ne sera pas télévisée, mais elle aura une suite directe en DVD.",
+        "auteur": "VHS Victim",
+"categorie":3
+    },
+    {
+        "texte": "La course contre les zombies est le seul sport où tout le monde perd à la fin.",
+        "auteur": "Runnin' Dead",
+"categorie":3
+    },
+    {
+        "texte": "Dans un monde infesté de zombies, le silence est votre meilleur ami.",
+        "auteur": "Quiet Riot",
+"categorie":3
+    },
+    {
+        "texte": "Mieux vaut un cerveau plein que des jambes rapides.",
+        "auteur": "Fast Foodie",
+"categorie":3
+    },
+    {
+        "texte": "Les zombies ont changé les règles : maintenant, les derniers seront les premiers... à être mangés.",
+        "auteur": "Last Man Chomping",
+"categorie":3
+    },
+    {
+        "texte": "Les zombies n'ont pas de calendrier, mais ils arrivent toujours à l'heure pour le dîner.",
+        "auteur": "Midnight Snacker",
+"categorie":3
+    },
+    {
+        "texte": "Le seul marathon où les participants vous courent après.",
+        "auteur": "Zombie Jogger",
+"categorie":3
+    },
+    {
+        "texte": "Les zombies ne connaissent pas la mode, mais ils aiment déchirer les tendances.",
+        "auteur": "Fashion Biter",
+"categorie":3
+    },
+    {
+        "texte": "La pire partie de l'apocalypse zombie? Ils ne savent pas frapper à la porte.",
+        "auteur": "Door Slam",
+"categorie":3
+    },
+    {
+        "texte": "Un cerveau, c'est comme un bon vin : mieux apprécié par un connaisseur.",
+        "auteur": "Connoisseur of the Dead",
+"categorie":3
+    },
+    {
+        "texte": "Les zombies ne prennent pas de pauses café, mais ils adorent les pauses cerveau.",
+        "auteur": "Caffeinated Corpse",
+"categorie":3
+    },
+    {
+        "texte": "La différence entre un zombie et un humain? L'appétit.",
+        "auteur": "Gourmet Ghoul",
+"categorie":3
+    },
+    {   "texte": "Les zombies ne font pas de différence entre le fast-food et la haute cuisine.",
+        "auteur": "Fine Diner",
+"categorie":3
+    },
+    {
+        "texte": "Un zombie ne vous oubliera jamais, surtout s'il vous a goûté.",
+        "auteur": "Memory Bites",
+"categorie":3
+    },
+    {
+        "texte": "En période d'apocalypse, le meilleur parfum est celui de l'invisibilité.",
+        "auteur": "Scent of Survival",
+"categorie":3
+    },
+    {
+        "texte": "Les zombies ne craignent pas la fin du monde, ils en sont les vedettes.",
+        "auteur": "Apocalypse Star",
+"categorie":3
+    },
+    {
+        "texte": "Les zombies ne montent pas les escaliers, ils préfèrent l'ascenseur... pour vous surprendre.",
+        "auteur": "Elevator Surprise",
+"categorie":3
+    },
+    {
+        "texte": "Un zombie est le seul artiste qui voit la beauté dans un cerveau.",
+        "auteur": "Artistic Eater",
+"categorie":3
+    },
+    {
+        "texte": "Les zombies sont les seuls êtres qui ne jugent pas un livre à sa couverture, mais à son contenu.",
+        "auteur": "Brainy Booker",
+"categorie":3
+    },
+    {
+        "texte": "La règle d'or des zombies : Si tu ne peux pas les battre, mange-les.",
+        "auteur": "Golden Ghoul",
+"categorie":3
+    }
+]
+

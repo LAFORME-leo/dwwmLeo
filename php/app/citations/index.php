@@ -1,5 +1,6 @@
 <?php
-require_once 'model/citation.php'
+require_once 'model/database.php';
+require_once 'model/citation.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -9,8 +10,6 @@ require_once 'model/citation.php'
     <title>Document</title>
 </head>
 <body>
-    <?php
-    print_r(Citation::getAll())
-    ?>
+ 
 </body>
 </html>

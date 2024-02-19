@@ -1,6 +1,8 @@
 <?php
 class Citation
 {
+ 
+
     public int $id;
     public string $auteur;
     public string $texte;
@@ -8,38 +10,58 @@ class Citation
     /**
      * Constructeur
      */
-    public function __construct(int $pID, string $pAuteur, string $pTexte, int $pCategorie)
+    public function __construct(string $pAuteur, string $pTexte, int $pCategorie, int $pId=0)
     {
-        $this->id = $pID;
         $this->auteur = $pAuteur;
         $this->texte = $pTexte;
         $this->categorie = $pCategorie;
+        $this->id = $pId;
     }
-
-    public static function getAll():ArrayObject
+    public function saveToDb():void
+    { $
+        $listeCitations = new ArrayObject();
+       
+        $recipesStatement = Database::getConnection()->pdo->prepare('INSERT INTO citations (auteur,texte,categorie) values (?,?,?)');
+        $recipesStatement->execute([$this->auteur,$this->texte,$this->categorie]);
+    }
+    public static function get( int $pId):Citation
     {
-        // host doit bien être le nom du service dans le docker-composer, ici db
-        // db:
-        //  build: './build/mysql/'
-        //  volumes:
-
-        $host = "db"; // Le host est le nom du service, présent dans le docker-compose.yml
-        $dbname = "citations";
-        $charset = "utf8";
-        $port = "3306";
-        
         try {
             $listeCitations = new ArrayObject();
-            $pdo = new PDO(
-                dsn: "mysql:host=$host;dbname=$dbname;charset=$charset;port=$port",
-                username: "root",
-                password: "thisisapassworddamned",
-            );
-            $recipesStatement = $pdo->prepare('SELECT * FROM citations');
+            $recipesStatement = Database::getConnection()->pdo->prepare('SELECT * FROM citations where id=?');
+            $recipesStatement->execute([$pId]);
+            $citationsData = $recipesStatement->fetch();
+            return new Citation($citationsData['auteur'],$citationsData['texte'],$citationsData['categorie'],$citationsData['id']);
+        } catch (Exception $e) {
+            die('Erreur : ' . $e->getMessage());
+        }
+    }
+    public static function getAll():ArrayObject
+    {
+        try {
+            $listeCitations = new ArrayObject();
+            $recipesStatement = Database::getConnection()->pdo->prepare('SELECT * FROM citations');
             $recipesStatement->execute();
             $citationsData = $recipesStatement->fetchAll();
             foreach ($citationsData as $key => $citation) {
-                $listeCitations->append(new Citation($citation['id'],$citation['auteur'],$citation['texte'],$citation['categorie']));
+                $listeCitations->append(new Citation($citation['auteur'],$citation['texte'],$citation['categorie'],$citation['id']));
+            }
+            return $listeCitations;
+        } catch (Exception $e) {
+            die('Erreur : ' . $e->getMessage());
+        }
+    }
+    public static function getAllByCategorie(int $pCategorie):ArrayObject
+    {
+
+        try {
+            $listeCitations = new ArrayObject();
+
+            $recipesStatement = Database::getConnection()->pdo->prepare('SELECT * FROM citations where categorie=?');
+            $recipesStatement->execute([$pCategorie]);
+            $citationsData = $recipesStatement->fetchAll();
+            foreach ($citationsData as $key => $citation) {
+                $listeCitations->append(new Citation($citation['auteur'],$citation['texte'],$citation['categorie'],$citation['id']));
             }
             return $listeCitations;
         } catch (Exception $e) {
