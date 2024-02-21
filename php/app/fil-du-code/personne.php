@@ -73,7 +73,7 @@ class Personne
   // réécriture de la methode __toString: elle est appelée par exemple quand on fait "echo" sur une instance de la classe personne
   public function __toString():string
   {
-    return "[$this->_id] $this->_name: $this->_email";
+    return "[$this->_id] $this->_name ($this->_email)";
 
   }
   // réécriture de la methode __debugInfo: elle est appelée par exemple quand on fait var_dump sur une instance de la classe personne
