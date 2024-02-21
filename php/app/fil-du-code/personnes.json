@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name": "Jean Dupont",
+        "email": "jean.dupont@example.com"
+    },
+    {
+        "id": 2,
+        "name": "Marie Curie",
+        "email": "marie.curie@example.com"
+    },
+    {
+        "id": 3,
+        "name": "Henri Poincaré",
+        "email": "henri.poincare@example.com"
+    },
+    {
+        "id": 4,
+        "name": "Sophie Germain",
+        "email": "sophie.germain@example.com"
+    },
+    {
+        "id": 5,
+        "name": "Blaise Pascal",
+        "email": "blaise.pascal@example.com"
+    },
+    {
+        "id": 6,
+        "name": "Émilie du Châtelet",
+        "email": "emilie.duchatelet@example.com"
+    },
+    {
+        "id": 7,
+        "name": "Pierre de Fermat",
+        "email": "pierre.fermat@example.com"
+    },
+    {
+        "id": 8,
+        "name": "Simone de Beauvoir",
+        "email": "simone.debeauvoir@example.com"
+    },
+    {
+        "id": 9,
+        "name": "Louis Pasteur",
+        "email": "louis.pasteur@example.com"
+    },
+    {
+        "id": 10,
+        "name": "Voltaire",
+        "email": "voltaire@example.com"
+    }
+]
