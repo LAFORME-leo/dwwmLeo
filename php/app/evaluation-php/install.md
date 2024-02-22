@@ -32,6 +32,8 @@ sudo apt install -y php-cli php-json php-mbstring php-xml php-pcov php-xdebug
 sudo apt install -y zip
 sudo apt install phpunit
 
+composer require phpunit
+
 # PRINCIPE DU TP
 Le but est de compléter le code existant pour le rendre fonctionnel. Attention vous ne devez pas le faire n'importe comment! 
 Il est bien précisé par un commentaire les endroits ou insérer votre code. Les fonctions existent, vous ne devez surtout pas modifier le code  en dehors des endroits indiqués.
